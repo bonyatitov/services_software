@@ -11,9 +11,7 @@
   <header>
     <div class="dashboard">
       <div class="menu-container">
-        <button class="menu-container__btn--hidden-lg" id="open-menu-btn">
-          <img src="img/gamburger-menu.svg" alt="Открыть меню" class="menu-container__img">
-        </button>
+        <button class="menu-container__btn--hidden-lg" id="open-menu-btn"></button>
         <div class="menu-container__line--hidden-xs"></div>
         <a href="#" class="menu-container__logo">
           <img src="img/logo.svg" alt="Логотип" class="menu-container__logo-img">
@@ -46,7 +44,8 @@
     </div>
   </header>
   <main>
-    <section class="main-content">
+    <div class="main-content">
+      <!-- heading-line вместе с h1 -->
        <div class="main-conten__heading-box">
         <div class="main-content__heading-line"></div>
         <h1 class="main-content__heading">Услуги и сервисы</h1>
@@ -85,8 +84,10 @@
           </li>
         </ul>
       </nav>
-      <div class="content-container">
-        <div class="content-container__text">
+    </div>
+    <div class="content-container">
+      <div class="content-container__text">
+        <article>
           <p class="content-container__paragraph-one">
             Мы являемся авторизованным сервисным 
             центром по ремонту техники Dell. Только у нас
@@ -102,17 +103,16 @@
               советуют нас родным и близким.
             </span>
           </p>
-          <button class="content-container__buttn-more">
-            <img src="img/button-read-all.svg" alt="Читать еще" class="content-container__button-img">
-            Читать далее
-          </button>
-        </div>
-        <div class="main-img__block">
-          <img src="img/main-photo.png" alt="" class="main-img__img">
-        </div>
+        </article>
+        <button class="content-container__buttn-more">
+          <div class="content-container__button-more-img"></div>
+          Читать далее
+        </button>
       </div>
-    </section>
-
+      <div class="main-img__block">
+        <img src="img/main-photo.jpg" alt="" class="main-img__img">
+      </div>
+    </div>
   </main>
 </body>
 </html>
